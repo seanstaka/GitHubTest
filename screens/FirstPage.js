@@ -2,11 +2,11 @@ import { View, StyleSheet } from "react-native";
 
 import MainButton from "../components/MainButton";
 
-function MainPage() {
+function MainPage(props) {
     return (
         <View style={styles.container}>
             <MainButton>Main Page</MainButton>
-            <MainButton>Second Page</MainButton>
+            <MainButton onPress = {props.changePage.bind(this, 2)}>Second Page</MainButton>
             <MainButton>Third Page</MainButton>
         </View>
     );

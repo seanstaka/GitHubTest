@@ -1,7 +1,8 @@
 import { StyleSheet, Text } from "react-native";
-function SecondPage() {
+import MainButton from "../components/MainButton";
+function SecondPage(props) {
   return (
-    <Text>Second Page</Text>
+    <MainButton onPress={props.changePage}>Home!</MainButton>
   );
 }
 
