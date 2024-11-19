@@ -1,7 +1,11 @@
-import { StyleSheet, Text } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 function SecondPage() {
   return (
-    <Text>Second Page</Text>
+    <View>
+      <Text>Second Page</Text>
+      <Text>More Text</Text>
+    </View>
+
   );
 }
 
