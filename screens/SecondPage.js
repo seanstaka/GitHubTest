@@ -4,6 +4,7 @@ function SecondPage() {
     <View>
       <Text>Second Page</Text>
       <Text>More Text</Text>
+      <Text>Adding text after logging out of seanstaka</Text>
     </View>
 
   );
